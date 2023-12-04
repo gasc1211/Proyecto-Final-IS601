@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">RANGER</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmD24JVly3E6M63RkWFmRdgAAAAACAAAAAAAQZgAAAAEAACAAAABQkCM2xW8IRnGbqqehUEyLRgRrk6qvUg4iCgrJ9olkVAAAAAAOgAAAAAIAACAAAAA4adAhXTaUegwGJwIKqDrJg1Ak7jrStnm56CZWBLiLd5AAAAC9LDwXGqL6s0PTKbeh4h/LCMm29LR7UCfI1XwIP9ttgwPC/Bi4rwahrY1BmAAHidKqIKWrgZGAXwF2tjEtXAoIedAUzfAC9/OGaNO7rlB4wV+RKz406TvVQQb0oIEGCMsPVpXXA2bjKbnOTNTFauuwrLwX4E5J5OZs3loCdm8ycnGHeue0kY5BDIVkd74jAtBAAAAAe5KtbQQE963K8/EGnej8Z0QRO8/pOWJfTWEThnhJ+DHF3Ql3XqPsMMfzo3166B07tIugYQvggzmmx0EiF1Sexw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmD24JVly3E6M63RkWFmRdgAAAAACAAAAAAAQZgAAAAEAACAAAAC7faMS9jacBQyi/3dZY28wLvpJYPr3aIhAAZjm67wweQAAAAAOgAAAAAIAACAAAABOnWd4ZCXg1I/joCB74KvwElvDkWRDpas1pKl7dVK6HpAAAADVMO9zi2TBcnBOcb9lKSWlvrkZL9uJBn5TM83YNBoIBDJMIecgoD6gQ8pb/rAPChe0wl8QOQ9k+YNa99mEs6+jSpyArNGPcDobrF/HPusEiuP0POO8B9KS219E7KY6+3lseeyzX0e4Hyma1614Gu6WLIsBMcas5WtmuaYeyww4XwB5TE70dPDt9Y/+NhonUupAAAAAWCDSA3fA/6Wa75ctSfOygluP2G4t5A+57w9SLRlsBn/1MGd/2W7LgclSIyyLvVt7XbWJRfuw/2hbJYouuH3oEQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">34</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">24</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8F9DFB8A-D285-4212-9C7E-D3DBA2772AA5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{43ECDF62-AE71-4F45-A213-9F520DB67FE8}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -196,7 +196,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=RANGER\SQLEXPRESS;Initial Catalog=AirlineDB;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{A0F59D91-F1AB-49FF-986F-C766BBDA830F}RANGER\SQLEXPRESS.AirlineDB1;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=RANGER\SQLEXPRESS;Initial Catalog=AirlineDB;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{A0F59D91-F1AB-49FF-986F-C766BBDA830F}RANGER\SQLEXPRESS.AirlineDB1;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -344,7 +344,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=RANGER\SQLEXPRESS;Initial Catalog=AirlineDW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{DF356978-41D4-41D3-A5EB-914C567E11A3}RANGER\SQLEXPRESS.AirlineDW;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=RANGER\SQLEXPRESS;Initial Catalog=AirlineDW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{DF356978-41D4-41D3-A5EB-914C567E11A3}RANGER\SQLEXPRESS.AirlineDW;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
